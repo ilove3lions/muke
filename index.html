@@ -1,200 +1,308 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!doctype html>
+<html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
-<title>大都匀基佬集团官方网站</title>
-<link href="css/main.css" rel="stylesheet" type="text/css" />
-<script type="text/javascript" src="js/setHomeSetFav.js"></script>
-<script type="text/javascript" src="js/myfocus-2.0.1.min.js" charset="utf-8"></script><!--引入myFocus库-->
-<script type="text/javascript">
-myFocus.set({
-    id:'boxID',//焦点图盒子ID
-    pattern:'mF_fancy',//风格应用的名称
-    time:3,//切换时间间隔(秒)
-    trigger:'click',//触发切换模式:'click'(点击)/'mouseover'(悬停)
-    width:1000,//设置图片区域宽度(像素)
-    height:310,//设置图片区域高度(像素)
-    txtHeight:'default'//文字层高度设置(像素),'default'为默认高度，0为隐藏
-});
-</script>
+<meta charset="utf-8">
+<title>岑岑鸟商城-岑酱！买买买！</title>
+<link type="text/css" rel="stylesheet" href="style/reset.css">
+<link type="text/css" rel="stylesheet" href="style/main.css">
+<!--[if IE 6]>
+<script type="text/javascript" src="js/DD_belatedPNG_0.0.8a-min.js"></script>
+<script type="text/javascript" src="js/ie6Fixpng.js"></script>
+<![endif]-->
 </head>
 
 <body>
-<div class="top">
-  <div class="top_content">
-    <ul>
-      <li><a href="#">联系我们</a></li>
-      <li><a onclick="AddFavorite(window.location,document.title)" href="javascript:void(0)">加入收藏</a></li>
-      <li><a onclick="SetHome(window.location)" href="javascript:void(0)">设为首页</a></li>
-    </ul>
-  </div>
+<div class="headerBar">
+	<div class="topBar">
+		<div class="comWidth">
+			<div class="leftArea">
+				<a href="#" class="collection">收藏岑岑鸟商城</a>
+			</div>
+			<div class="rightArea">
+				欢迎来到岑岑鸟！<a href="登录.html">[登录]</a><a href="注册.html">[注册]</a>
+			</div>
+		</div>
+	</div>
+	<div class="logoBar">
+		<div class="comWidth">
+			<div class="logo fl">
+				<a href="#"><img src="images/logo.png" alt="岑岑鸟LOGO"></a>
+			</div>
+			<div class="search_box fl">
+				<input type="text" class="search_text fl">
+				<input type="button" value="搜 索" class="search_btn fr">
+			</div>
+			<div class="shopCar fr">
+				<span class="shopText fl"><a href="购物车.html">购物车</a></span>
+				<span class="shopNum fl"><a href="购物车.html">0</a></span>
+			</div>
+		</div>
+	</div>
+	<div class="navBox">
+		<div class="comWidth clearfix">
+			<div class="shopClass fl">
+				<h3>全部商品分类<i class="shopClass_icon"></i></h3>
+				<div class="shopClass_show">
+					<dl class="shopClass_item">
+						<dt><a href="产品分类.html" class="b">手机</a> <a href="#" class="b">数码</a> <a href="#" class="aLink">合约机</a></dt>
+						<dd><a href="#">华为P10</a> <a href="#">单反</a> <a href="#">VR设备</a></dd>
+					</dl>
+					<dl class="shopClass_item">
+						<dt><a href="产品分类.html" class="b">电脑</a> <a href="#" class="b">外设</a> <a href="#" class="aLink">装机店</a></dt>
+						<dd><a href="产品分类.html">台式机</a> <a href="#">笔记本</a> <a href="#">平板</a></dd>
+					</dl>
+					<dl class="shopClass_item">
+						<dt><a href="产品分类.html" class="b">清洁</a> <a href="#" class="b">护理</a> <a href="#" class="aLink">化妆品</a></dt>
+						<dd><a href="产品分类.html">美妆护肤</a> <a href="#">清洁用品</a> <a href="#">女性护理</a></dd>
+					</dl>
+					<dl class="shopClass_item">
+						<dt><a href="产品分类.html" class="b">服装</a> <a href="#" class="b">鞋类</a> <a href="#" class="aLink">户外</a></dt>
+						<dd><a href="产品分类.html">Adidas</a> <a href="#">高跟鞋</a> <a href="#">夏季新品</a></dd>
+					</dl>
+					<dl class="shopClass_item">
+						<dt><a href="产品分类.html" class="b">食品</a> <a href="#" class="b">饮料</a> <a href="#" class="aLink">零食</a></dt>
+						<dd><a href="产品分类.html">进口</a> <a href="#">保健</a> <a href="#">生鲜</a></dd>
+					</dl>
+				</div>
+				<div class="shopClass_list hide">
+					<div class="shopClass_cont">
+						<dl class="shopList_item">
+							<dt>电脑装机</dt>
+							<dd>
+								<a href="#">文字啊</a><a href="#">文字字啊</a><a href="#">文字字字啊</a><a href="#">文字啊</a><a href="#">文字</a><a href="#">文字啊</a>
+							</dd>
+						</dl>
+						<dl class="shopList_item">
+							<dt>电脑装机</dt>
+							<dd>
+								<a href="#">文字啊</a><a href="#">文字字啊</a><a href="#">文字字字啊</a><a href="#">文字啊</a><a href="#">文字</a><a href="#">文字啊</a><a href="#">文字啊</a><a href="#">文字字啊</a><a href="#">文字字字啊</a><a href="#">文字啊</a><a href="#">文字</a><a href="#">文字啊</a><a href="#">文字啊</a>
+							</dd>
+						</dl>
+						<dl class="shopList_item">
+							<dt>电脑装机</dt>
+							<dd>
+								<a href="#">文字啊</a><a href="#">文字字啊</a><a href="#">文字字字啊</a><a href="#">文字啊</a><a href="#">文字</a><a href="#">文字啊</a><a href="#">文字啊</a><a href="#">文字字啊</a><a href="#">文字字字啊</a><a href="#">文字啊</a><a href="#">文字</a><a href="#">文字啊</a><a href="#">文字啊</a>
+							</dd>
+						</dl>
+						<dl class="shopList_item">
+							<dt>电脑装机</dt>
+							<dd>
+								<a href="#">文字啊</a><a href="#">文字字啊</a><a href="#">文字字字啊</a><a href="#">文字啊</a><a href="#">文字</a><a href="#">文字啊</a><a href="#">文字啊</a><a href="#">文字字啊</a><a href="#">文字字字啊</a><a href="#">文字啊</a><a href="#">文字</a><a href="#">文字啊</a><a href="#">文字啊</a>
+							</dd>
+						</dl>
+						<dl class="shopList_item">
+							<dt>电脑装机</dt>
+							<dd>
+								<a href="#">文字啊</a><a href="#">文字字啊</a><a href="#">文字字字啊</a><a href="#">文字啊</a><a href="#">文字</a><a href="#">文字啊</a><a href="#">文字啊</a><a href="#">文字字啊</a><a href="#">文字字字啊</a><a href="#">文字啊</a><a href="#">文字</a><a href="#">文字啊</a><a href="#">文字啊</a>
+							</dd>
+						</dl>
+						<div class="shopList_links">
+							<a href="#">文字测试内容等等<span></span></a><a href="#">文字容等等<span></span></a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<ul class="nav fl">
+				<li><a href="#">数码城</a></li>
+				<li><a href="#">天黑黑</a></li>
+				<li><a href="#">团购</a></li>
+				<li><a href="#">发现</a></li>
+				<li><a href="#">二手特卖</a></li>
+				<li><a href="#">名品会</a></li>
+			</ul>
+		</div>
+	</div>
 </div>
-<!--页面顶端top结束-->
-
-<div class="wrap">
-  <div  class="logo">
-    <div class="logo_left"><img src="images/logo.jpg" /></div>
-    <div class="logo_right"><img src="images/tel.jpg" width="28" height="28" />欧总水会热线：<span class="tel">0854-8223012</span></div>
-  </div>
-  <!--logo结束-->
-  
-  <div class="nav">
-    <div  class="nav_left"></div>
-    <div class="nav_mid">
-      <div class="nav_mid_left">
-        <ul>
-          <li><a href="#">首页</a></li>
-          <li><a href="https://ilove3lions.github.io/arapurple/beverages/elixir.html">关于基佬</a></li>
-          <li><a href="http://ilove3lions.github.io">唯爱岑嶒</a></li>
-          <li><a href="http://www.meiriyigu.cn/">股票推荐</a></li>
-          <li><a href="http://user.qzone.qq.com/281063370/2">私密日记</a></li>
-          <li><a href="https://ilove3lions.github.io/arapurple/">集团总部</a></li>
-        </ul>
-      </div>
-      <!--nav_mid_left结束-->
-      <div class="nav_mid_right">
-        <form action="" method="post">
-          <input type="text" class="search_text" />
-          <!--<input type="text" class="search_text" x-webkit-speech />-->
-        </form>
-      </div>
-      <!--nav_mid_right结束--> 
-    </div>
-    <!--导航主体nav_mid结束-->
-    <div class="nav_right"></div>
-  </div>
-  <!--nav结束-->
-  
-  <div class="ad">
-    <div id="boxID"><!--焦点图盒子-->
-      <div class="loading"><img src="images/loading.gif" alt="请稍候..." /></div>
-      <!--载入画面(可删除)-->
-      <div class="pic"><!--内容列表(li数目可随意增减)-->
-        <ul>
-          <li><a href="#"><img src="images/ad2.jpg" thumb="" alt="" text="详细描述2" /></a></li>
-          <li><a href="#"><img src="images/ad3.jpg" thumb="" alt="" text="详细描述3" /></a></li>
-          <li><a href="#"><img src="images/ad4.jpg" thumb="" alt="" text="详细描述4" /></a></li>
-          <li><a href="#"><img src="images/ad3.jpg" thumb="" alt="" text="详细描述5" /></a></li>
-        </ul>
-      </div>
-    </div>
-  </div>
-  <!--ad结束-->
-  
-  <div class="main">
-    <div class="news">
-      <div class="title">
-        <h2 class="titile_left">圈内大事件</h2>
-        <span class="title_right"><a href="#">More&gt;&gt;</a></span> </div>
-      <!--title结束-->
-      
-      <div class="pic_news"> <img src="images/news.jpg" alt="520 慕女神喊你来表白" width="113" height="77" />
-        <h2><a href="news.html">2.14 活动：何舒洁还是杨希蓉？</a></h2>
-        <p>活动时间：2月13日—2月15日<br />
-          获奖公布时间：2月24日<br />
-          <a href="news.html">Learn More>></a></p>
-      </div>
-      <!--pic_news结束-->
-      
-      <div class="news_list">
-        <ul>
-          <li><span>2017-02-24</span> <a href="news.html">【琉璃访谈 攒机篇】浅谈农企翻身</a></li>
-          <li><span>2017-02-21</span><a href="news.html">【有奖活动】血赚！欧总水会代金券</a></li>
-          <li><span>2017-02-10</span><a href="news.html">《基佬群，请走出自杀阴霾》即将出版</a></li>
-          <li><span>2017-02-08</span><a href="news.html" title="aa">【琉璃访谈】齐迪的割包皮血泪史</a></li>
-        </ul>
-      </div>
-      <!--news_list结束--> 
-      
-    </div>
-    <!--news结束-->
-    
-    <div class="products">
-      <div class="title">
-        <h2 class="titile_left">学习社区</h2>
-        <span class="title_right"><a href="#">More&gt;&gt;</a></span> </div>
-      <!--title结束-->
-      
-      <div class="product_list"><img src="images/css.jpg" alt="CSS圆角进化论" width="158" height="106" />
-        <h2><a href="news.html">Python开发</a></h2>
-        <p> Python是纯粹的自由软件，自从20世纪90年代初Python语言诞生至今，它已被逐渐广泛应用于系统管理任务的处理和Web编程。 。</p>
-      </div>
-      <!--product_list结束-->
-      
-      <div class="product_type">
-        <ul>
-          <li>摄影教学</li>
-          <li>日语讲座</li>
-          <li>爱情导论</li>
-          <li>Python开发</li>
-        </ul>
-      </div>
-    </div>
-    <!--products结束-->
-    
-    <div class="sidebar">
-      <div class="video">
-        <div class="title">
-          <h2 class="titile_left">视频中心</h2>
-          <span class="title_right"><a href="#">More&gt;&gt;</a></span> </div>
-        <!--title结束-->
-        <p class="video_content">
-          <embed src="http://player.youku.com/player.php/sid/XNjkzMDE5MTUy/v.swf" allowFullScreen="true" quality="high" width="220" height="140" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></embed>
-        </p>
-      </div>
-      <!--video结束-->
-      
-      <div class="service"> <img src="images/app.jpg" /> </div>
-    </div>
-    <!--sidebar结束--> 
-    
-  </div>
-  <!--main结束--> 
+<div class="banner comWidth clearfix">
+	<div class="banner_bar banner_big">
+		<ul class="imgBox">
+			<li><a href="#"><img src="images/banner/banner_01.jpg" alt="banner"></a></li>
+			<li><a href="#"><img src="images/banner/banner_02.jpg" alt="banner"></a></li>
+		</ul>
+		<div class="imgNum">
+			<a href="#" class="active"></a><a href="#"></a><a href="#"></a><a href="#"></a>
+		</div>
+	</div>
 </div>
-<!--最外层wrap结束  -->
-<div class="copyright">
-  <div class="copyright_content">
-    <ul>
-      <li>关于
-        <ul>
-          <li>基佬故事</li>
-          <li>联系我们</li>
-          <li>加入我们</li>
-          <li>版权声明</li>
-        </ul>
-      </li>
-      <li>课程
-        <ul>
-          <li>摄影教学</li>
-          <li>Python开发</li>
-          <li>日语讲座</li>
-          <li>爱情导论</li>
-        </ul>
-      </li>
-      <li>关注
-        <ul>
-          <li>新浪微博</li>
-          <li><a href="https://github.com/ilove3lions">Github</a></li>
-          <li>企业微信</li>
-          <li>豆瓣小组</li>
-        </ul>
-      </li>
-      <li>留言
-        <ul>
-          <li>喷人留言</li>
-          <li>情感咨询</li>
-          <li>八卦内幕</li>
-          <li>在线裸聊</li>
-        </ul>
-      </li>
-      <li><img src="images/weixin.png" alt="微信关注" width="30" height="27" />微信关注
-        <ul>
-          <li><img src="images/qrcode.jpg" alt="扫描关注慕课网官方微信" width="102" height="102" /></li>
-        </ul>
-      </li>
-    </ul>
-  </div>
-  <!--copyright_content结束--> 
+<div class="shopTit comWidth">
+	<span class="icon"></span><h3>家用电脑</h3>
+	<a href="#" class="more">更多&gt;&gt;</a>
+</div>
+<div class="shopList comWidth clearfix">
+	<div class="leftArea">
+		<div class="banner_bar banner_sm">
+			<ul class="imgBox">
+				<li><a href="#"><img src="images/banner/banner_sm_01.jpg" alt="banner"></a></li>
+				<li><a href="#"><img src="images/banner/banner_sm_02.jpg" alt="banner"></a></li>
+			</ul>
+			<div class="imgNum">
+				<a href="#" class="active"></a><a href="#"></a><a href="#"></a><a href="#"></a>
+			</div>
+		</div>
+	</div>
+	<div class="rightArea">
+		<div class="shopList_top clearfix">
+			<div class="shop_item">
+				<div class="shop_img">
+					<a href="#"><img src="images/shopImg.jpg" alt=""></a>
+				</div>
+				<h3>HTC新渴望8系列</h3>
+				<p>1899元</p>
+			</div>
+			<div class="shop_item">
+				<div class="shop_img">
+					<a href="#"><img src="images/shopImg.jpg" alt=""></a>
+				</div>
+				<h3>HTC新渴望8系列</h3>
+				<p>1899元</p>
+			</div>
+			<div class="shop_item">
+				<div class="shop_img">
+					<a href="#"><img src="images/shopImg.jpg" alt=""></a>
+				</div>
+				<h3>HTC新渴望8系列</h3>
+				<p>1899元</p>
+			</div>
+			<div class="shop_item">
+				<div class="shop_img">
+					<a href="#"><img src="images/shopImg.jpg" alt=""></a>
+				</div>
+				<h3>HTC新渴望8系列</h3>
+				<p>1899元</p>
+			</div>
+		</div>
+		<div class="shopList_sm clearfix">
+			<div class="shopItem_sm">
+				<div class="shopItem_smImg">
+					<a href="#"><img src="images/shopImg.jpg" alt=""></a>
+				</div>
+				<div class="shopItem_text">
+					<p>NFC技术一碰轻松配对！接触屏幕</p>
+					<h3>￥149.00	</h3>
+				</div>
+			</div>
+			<div class="shopItem_sm">
+				<div class="shopItem_smImg">
+					<a href="#"><img src="images/shopImg.jpg" alt=""></a>
+				</div>
+				<div class="shopItem_text">
+					<p>NFC技术一碰轻松配对！接触屏幕</p>
+					<h3>￥149.00	</h3>
+				</div>
+			</div>
+			<div class="shopItem_sm">
+				<div class="shopItem_smImg">
+					<a href="#"><img src="images/shopImg.jpg" alt=""></a>
+				</div>
+				<div class="shopItem_text">
+					<p>NFC技术一碰轻松配对！接触屏幕</p>
+					<h3>￥149.00	</h3>
+				</div>
+			</div>
+			<div class="shopItem_sm">
+				<div class="shopItem_smImg">
+					<a href="#"><img src="images/shopImg.jpg" alt=""></a>
+				</div>
+				<div class="shopItem_text">
+					<p>NFC技术一碰轻松配对！接触屏幕</p>
+					<h3>￥149.00	</h3>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="shopTit comWidth">
+	<span class="icon"></span><h3>家用电脑</h3>
+	<a href="#" class="more">更多&gt;&gt;</a>
+</div>
+<div class="shopList comWidth clearfix">
+	<div class="leftArea">
+		<div class="banner_bar banner_sm">
+			<ul class="imgBox">
+				<li><a href="#"><img src="images/banner/banner_sm_01.jpg" alt="banner"></a></li>
+				<li><a href="#"><img src="images/banner/banner_sm_02.jpg" alt="banner"></a></li>
+			</ul>
+			<div class="imgNum">
+				<a href="#" class="active"></a><a href="#"></a><a href="#"></a><a href="#"></a>
+			</div>
+		</div>
+	</div>
+	<div class="rightArea">
+		<div class="shopList_top clearfix">
+			<div class="shop_item">
+				<div class="shop_img">
+					<a href="#"><img src="images/shopImg.jpg" alt=""></a>
+				</div>
+				<h3>HTC新渴望8系列</h3>
+				<p>1899元</p>
+			</div>
+			<div class="shop_item">
+				<div class="shop_img">
+					<a href="#"><img src="images/shopImg.jpg" alt=""></a>
+				</div>
+				<h3>HTC新渴望8系列</h3>
+				<p>1899元</p>
+			</div>
+			<div class="shop_item">
+				<div class="shop_img">
+					<a href="#"><img src="images/shopImg.jpg" alt=""></a>
+				</div>
+				<h3>HTC新渴望8系列</h3>
+				<p>1899元</p>
+			</div>
+			<div class="shop_item">
+				<div class="shop_img">
+					<a href="#"><img src="images/shopImg.jpg" alt=""></a>
+				</div>
+				<h3>HTC新渴望8系列</h3>
+				<p>1899元</p>
+			</div>
+		</div>
+		<div class="shopList_sm clearfix">
+			<div class="shopItem_sm">
+				<div class="shopItem_smImg">
+					<a href="#"><img src="images/shopImg.jpg" alt=""></a>
+				</div>
+				<div class="shopItem_text">
+					<p>NFC技术一碰轻松配对！接触屏幕</p>
+					<h3>￥149.00	</h3>
+				</div>
+			</div>
+			<div class="shopItem_sm">
+				<div class="shopItem_smImg">
+					<a href="#"><img src="images/shopImg.jpg" alt=""></a>
+				</div>
+				<div class="shopItem_text">
+					<p>NFC技术一碰轻松配对！接触屏幕</p>
+					<h3>￥149.00	</h3>
+				</div>
+			</div>
+			<div class="shopItem_sm">
+				<div class="shopItem_smImg">
+					<a href="#"><img src="images/shopImg.jpg" alt=""></a>
+				</div>
+				<div class="shopItem_text">
+					<p>NFC技术一碰轻松配对！接触屏幕</p>
+					<h3>￥149.00	</h3>
+				</div>
+			</div>
+			<div class="shopItem_sm">
+				<div class="shopItem_smImg">
+					<a href="#"><img src="images/shopImg.jpg" alt=""></a>
+				</div>
+				<div class="shopItem_text">
+					<p>NFC技术一碰轻松配对！接触屏幕</p>
+					<h3>￥149.00	</h3>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="hr_25"></div>
+<div class="footer">
+	<p><a href="#">岑岑鸟集团简介</a><i>|</i><a href="#">商城公告</a><i>|</i> <a href="#">招纳贤士</a><i>|</i><a href="#">联系我们</a><i>|</i>客服热线：18608547696</p>
+	<p>Copyright &copy; 2010 - 2018 岑岑鸟版权所有&nbsp;&nbsp;&nbsp;京ICP备09037834号&nbsp;&nbsp;&nbsp;京ICP证B1034-8373号&nbsp;&nbsp;&nbsp;某市公安局XX分局备案编号：123456789123</p>
+	<p class="web"><a href="#"><img src="images/webLogo.jpg" alt="logo"></a><a href="#"><img src="images/webLogo.jpg" alt="logo"></a><a href="#"><img src="images/webLogo.jpg" alt="logo"></a><a href="#"><img src="images/webLogo.jpg" alt="logo"></a></p>
 </div>
 </body>
 </html>
